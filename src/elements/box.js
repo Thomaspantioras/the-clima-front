@@ -89,7 +89,7 @@ const LargeText = styled.span`
     justify-content: center;
   }
 `;
-LargeText.displayName = "LargeText";
+LargeText.displayName = "LargeText"; //that's allows you to grab the styled component as selector in the tests
 
 const SmallText = styled.span`
   font-size: 1.4rem;

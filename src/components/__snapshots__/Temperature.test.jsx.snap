@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Styled(styled.div)
+  onClick={[Function]}
+>
+  <LargeText>
+    10
+    °c
+  </LargeText>
+  <SmallText>
+    Toronto
+  </SmallText>
+</Styled(styled.div)>
+`;
+
+exports[`renders correctly again 1`] = `
+<div
+  class="sc-bwzfXH ilYHYa sc-bdVaJa dQdFv"
+>
+  <span
+    class="sc-ifAKCX XBTtJ"
+  >
+    10°c
+  </span>
+  <span
+    class="sc-EHOje exztiK"
+  >
+    Toronto
+  </span>
+</div>
+`;
